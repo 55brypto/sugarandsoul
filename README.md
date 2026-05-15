@@ -22,43 +22,54 @@ Website for bakery
       </ul>
     </nav>
     <div class="hero">
-      <h2>Where Sweetness Meets the Heart</h2>
-      <p>Handcrafted cinnamon rolls for every occasion.</p>
-      <a href="#menu" class="cta-button">Explore Flavors</a>
+      <div class="hero-text">
+        <h2>Where Sweetness Meets the Heart</h2>
+        <p>Indulge in handcrafted cinnamon rolls made with love and the finest ingredients.</p>
+        <a href="#menu" class="cta-button">Explore Flavors</a>
+      </div>
     </div>
   </header>
 
   <main>
+    <!-- About Section -->
     <section id="about" class="about">
       <h2>About Us</h2>
-      <p>Sugar and Soul is a cottage bakery born out of a passion for creating homemade, heartfelt cinnamon rolls. Every bite is made with love and the finest ingredients.</p>
-      <img src="images/about.jpg" alt="Baking cinnamon rolls" />
+      <div class="about-content">
+        <p>At Sugar & Soul, we bring the warm, homemade flavors of cinnamon rolls to your table. From classic varieties to creative seasonal pairings, our rolls are baked with the utmost care. Every cinnamon roll tells a delicious story!</p>
+        <img src="images/about-bakery.jpg" alt="Rustic cinnamon rolls on a table">
+      </div>
     </section>
 
+    <!-- Menu Section -->
     <section id="menu" class="menu">
       <h2>Our Menu</h2>
       <div class="menu-items">
         <div class="menu-item">
+          <img src="images/classic-roll.jpg" alt="Classic Cinnamon Roll">
           <h3>Classic Cinnamon Roll</h3>
-          <p>The perfect blend of cinnamon and sugar, topped with creamy frosting.</p>
+          <p>A sweet harmony of cinnamon and creamy frosting.</p>
         </div>
         <div class="menu-item">
+          <img src="images/caramel-pecan.jpg" alt="Caramel Pecan Cinnamon Roll">
           <h3>Caramel Pecan</h3>
-          <p>A delightful twist with creamy caramel and crunchy pecans.</p>
+          <p>The delicate sweetness of caramel paired with crunchy pecans.</p>
         </div>
         <div class="menu-item">
+          <img src="images/seasonal-roll.jpg" alt="Seasonal Specialty Roll">
           <h3>Seasonal Special</h3>
-          <p>Ask about our limited-edition rolls, available fresh for the season!</p>
+          <p>Celebrate the season with our rotating special flavors!</p>
         </div>
       </div>
     </section>
 
+    <!-- Order Section -->
     <section id="order" class="order">
       <h2>Order Now</h2>
-      <p>Choose your favorite flavors and place your order easily.</p>
+      <p>Ready to experience the warmth of our cinnamon rolls? Place your order today and elevate your dessert game.</p>
       <a href="#contact" class="cta-button">Contact Us to Order</a>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact" class="contact">
       <h2>Contact Us</h2>
       <form>
